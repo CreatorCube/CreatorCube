@@ -1,0 +1,22 @@
+{
+    "name": "CreatorCube Development Container",
+    "dockerFile": "Dockerfile",
+    "appPort": 3000,
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mikestead.dotenv",
+        "davidanson.vscode-markdownlint",
+        "visualstudioexptteam.vscodeintellicode",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+    ],
+    "settings": {
+        "#terminal.integrated.defaultProfile.linux#": "/bin/bash"
+    },
+    "postCreateCommand": "yarn install",
+    "runArgs": [
+        "-u",
+        "node"
+    ]
+}
