@@ -1,0 +1,9 @@
+{
+  "name": "multiplatform",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
+}

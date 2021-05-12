@@ -1,0 +1,9 @@
+{
+  "name": "web",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "multiplatform": "workspace:packages/multiplatform"
+  }
+}

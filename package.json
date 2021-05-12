@@ -1,0 +1,12 @@
+{
+  "name": "creator-cube-monorepo",
+  "version": "1.0.0",
+  "repository": "git@github.com:CreatorCube/CreatorCube.git",
+  "author": "CreatorCube Team",
+  "license": "GNU",
+  "workspaces": [
+    "packages/multiplatform",
+    "packages/server",
+    "packages/web"
+  ]
+}
